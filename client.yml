@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka/
+server:
+  port: 9002
+spring:
+  application:
+    name: dapp-config-server
